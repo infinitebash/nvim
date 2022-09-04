@@ -20,3 +20,4 @@ vim.opt.linebreak = true
 
 vim.api.nvim_create_autocmd({"VimEnter"}, { pattern = "*", command = "COQnow --shut-up"})
 vim.api.nvim_create_autocmd({"VimEnter"}, { pattern = "*", command = "CHADopen --nofocus"})
+vim.api.nvim_create_autocmd({"BufEnter"}, { pattern = "*", command = "if (winnr(\"$\") == 1 && &filetype == \"CHADTree\") | q | endif" })

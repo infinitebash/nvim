@@ -11,7 +11,6 @@ Plug 'romgrk/barbar.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'terrortylor/nvim-comment'
 Plug 'lervag/vimtex'
-Plug 'SirVer/ultisnips'
 Plug('ms-jpq/coq_nvim', { branch = 'coq' })
 Plug('ms-jpq/coq.artifacts', { branch = 'artifacts' })
 Plug('ms-jpq/chadtree', { branch = 'chad', ['do'] = vim.fn['python3 -m chadtree deps'] })
