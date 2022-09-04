@@ -1,9 +1,9 @@
-modules = '~/.config/nvim/modules/'
-vim.cmd('source ' .. modules .. 'plugins.vim')
-vim.cmd('source ' .. modules .. 'buffer-shortcuts.vim')
-
-require('keybinds')
+require('plugins')
 require('plugin-setup')
+require('keybinds')
+
+modules = '~/.config/nvim/modules/'
+vim.cmd('source ' .. modules .. 'buffer-shortcuts.vim')
 
 -- This is needed for vimtex
 vim.syntax = true
