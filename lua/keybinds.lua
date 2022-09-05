@@ -1,5 +1,3 @@
-require ('word-count')
-
 -- MarkdownPreviewToggle
 vim.api.nvim_set_keymap('n', '<C-p>', '<Plug>MarkdownPreviewToggle', {})
 
