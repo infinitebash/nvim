@@ -14,5 +14,7 @@ Plug 'lervag/vimtex'
 Plug('ms-jpq/coq_nvim', { branch = 'coq' })
 Plug('ms-jpq/coq.artifacts', { branch = 'artifacts' })
 Plug('ms-jpq/chadtree', { branch = 'chad', ['do'] = vim.fn['python3 -m chadtree deps'] })
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
 
 vim.call('plug#end')
