@@ -1,6 +1,7 @@
 require('plugins')
 require('plugin-setup')
 require('keybinds')
+require('coc')
 
 modules = '~/.config/nvim/modules/'
 vim.cmd('source ' .. modules .. 'buffer-shortcuts.vim')
@@ -8,7 +9,7 @@ vim.cmd('source ' .. modules .. 'buffer-shortcuts.vim')
 -- This is needed for vimtex
 vim.syntax = true
 
--- vim.cmd('colo seoul256')
+vim.cmd('colo seoul256')
 
 vim.opt.expandtab = true
 vim.opt.tabstop = 2
