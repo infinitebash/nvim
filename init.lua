@@ -9,7 +9,7 @@ vim.cmd('source ' .. modules .. 'buffer-shortcuts.vim')
 -- This is needed for vimtex
 vim.syntax = true
 
-vim.cmd('colo gruvbox')
+vim.cmd('colo catppuccin-mocha')
 
 vim.opt.expandtab = true
 vim.opt.tabstop = 2

@@ -19,5 +19,6 @@ Plug 'preservim/vim-markdown'
 Plug 'neovim/nvim-lspconfig'
 Plug('neoclide/coc.nvim', { branch = 'release' })
 Plug 'morhetz/gruvbox'
+Plug('catppuccin/nvim', { as = 'catppuccin' })
 
 vim.call('plug#end')
