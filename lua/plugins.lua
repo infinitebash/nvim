@@ -20,5 +20,6 @@ Plug 'neovim/nvim-lspconfig'
 Plug('neoclide/coc.nvim', { branch = 'release' })
 Plug 'morhetz/gruvbox'
 Plug('catppuccin/nvim', { as = 'catppuccin' })
+Plug 'brenoprata10/nvim-highlight-colors'
 
 vim.call('plug#end')

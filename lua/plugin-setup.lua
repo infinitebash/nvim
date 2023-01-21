@@ -12,7 +12,9 @@ require("zen-mode").setup {
 
 require("twilight").setup {}
 require('nvim_comment').setup()
+require('nvim-highlight-colors').setup {}
 
+-- lsp setup
 require('lspconfig')['tsserver'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
