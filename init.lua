@@ -21,6 +21,7 @@ vim.opt.linebreak = true
 vim.opt.spelllang = "en,cjk"
 vim.opt.spellsuggest = best,9
 vim.opt.termguicolors = true
+vim.opt.foldenable = false
 
 -- Quietly initialize COQ
 -- vim.api.nvim_create_autocmd({"VimEnter"}, { pattern = "*", command = "COQnow --shut-up"})
