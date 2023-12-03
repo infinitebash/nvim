@@ -21,5 +21,6 @@ Plug('neoclide/coc.nvim', { branch = 'release' })
 Plug 'morhetz/gruvbox'
 Plug('catppuccin/nvim', { as = 'catppuccin' })
 Plug 'brenoprata10/nvim-highlight-colors'
+Plug('mg979/vim-visual-multi', { branch = 'master' })
 
 vim.call('plug#end')
